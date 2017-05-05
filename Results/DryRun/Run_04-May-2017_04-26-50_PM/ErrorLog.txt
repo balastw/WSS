@@ -1,0 +1,10 @@
+Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 38903
+Only local connections are allowed.
+Exception in thread "pool-1-thread-1" java.lang.ClassCastException: java.lang.StackOverflowError cannot be cast to java.lang.Exception
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:828)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:167)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:157)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
